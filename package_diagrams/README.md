@@ -1,2 +1,2 @@
 Package Diagram
-<img="Package.png" alt="png"/>
+<img src="Package.png" alt="png"/>
