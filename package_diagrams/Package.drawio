@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T08:38:48.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="CZ5LW6rQ9aE-MGjHnEzF" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-22T12:45:15.942Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Jctw_J57ZWua61b17yip" version="20.7.4" type="github">
   <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
     <mxGraphModel dx="1290" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -139,7 +139,7 @@
         <mxCell id="aCvFtzd_hCHBJ19AGB1r-45" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=123;tabHeight=24;tabPosition=left;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;" parent="1" vertex="1">
           <mxGeometry x="320" y="1180" width="530" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="aCvFtzd_hCHBJ19AGB1r-46" value="Activities (Buisness logic)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="aCvFtzd_hCHBJ19AGB1r-46" value="Activities (Business logic)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="502.92" y="740" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aCvFtzd_hCHBJ19AGB1r-47" value="Cached Database" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
