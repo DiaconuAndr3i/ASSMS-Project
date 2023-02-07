@@ -1,3 +1,3 @@
 ## Class diagram
 
-<img src = "classDiagram.png" alt="classDiagram" \>
+<img src="classDiagram.png" alt="classDiagram">
