@@ -1,2 +1,2 @@
 ## State machine
-<img src="StateMachine.png" alt="png" />
+<img src="UST.png" alt="png" />
