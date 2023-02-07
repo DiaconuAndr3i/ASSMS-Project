@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "95141337224",
+    "project_id": "hometask-daed7",
+    "storage_bucket": "hometask-daed7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95141337224:android:ab14aa946597d237e3273d",
+        "android_client_info": {
+          "package_name": "com.hdna.taskhouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95141337224-m0841q5ngb1v03fmfcs3puvgkfe1c802.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuQbG29pXf8dWvIPq4ojPjy00NpeRuQwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95141337224-m0841q5ngb1v03fmfcs3puvgkfe1c802.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_shape_white_r1"
+
+    >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="10dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bs_reward_icon_rocket" />
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:id="@+id/itemRewardTitle"
+        style="@style/TitleBlackTextView"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Jucarie Extra"
+        android:maxLength="16"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintBottom_toTopOf="@id/itemRewardCost"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:id="@+id/itemRewardCost"
+        style="@style/SecondaryGrayTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost: 100 points"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/itemRewardTitle" />
+
+    <Button
+        android:id="@+id/itemClaimButton"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text=" Claim "
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

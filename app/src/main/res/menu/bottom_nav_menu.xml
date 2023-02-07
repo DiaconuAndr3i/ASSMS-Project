@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/myHome"
+
+        android:icon="@drawable/ic_nv_home_lines"/>
+
+    <item
+        android:id="@+id/myCalendar"
+
+        android:icon="@drawable/ic_nv_calendar"/>
+
+    <item
+        android:id="@+id/myAdd"
+
+
+        android:icon="@drawable/ic_nv_task_plus"/>
+
+    <item
+        android:id="@+id/myUpdates"
+
+        android:iconTint="@color/base_light_gray"
+        android:icon="@drawable/ic_nv_circle_question"/>
+
+    <item
+        android:id="@+id/mySettings"
+        android:icon="@drawable/ic_nv_settings"/>
+
+
+</menu>

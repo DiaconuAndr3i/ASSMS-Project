@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_ultra_light_gray"
+    tools:context=".activities.AddTaskActivity">
+
+
+    <ImageView
+        android:id="@+id/addTaskBackImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/addTaskTitleTextView"
+        style="@style/TitleBlackTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="New task"
+
+
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/addTaskCompleteImageView"
+        app:layout_constraintStart_toEndOf="@+id/addTaskBackImageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/addTaskCompleteImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bs_checkmark_icon" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addTaskTitleTextView"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/TitleBlackTextView"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Task Title" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/addTaskEditTextTitle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="4dp"
+                android:paddingStart="20dp"
+                android:background="@drawable/round_shape_white_r1"
+                android:backgroundTintMode="add"
+                style="@style/PrimaryInputField"
+
+                android:ems="10"
+                android:backgroundTint="@color/base_light_gray"
+
+                android:inputType="textEmailAddress" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                >
+                <TextView
+                    android:id="@+id/startAddDateTV"
+                    style="@style/TitleBlackTextView"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    android:text="Start Date" />
+
+                <TextView
+                    android:id="@+id/startDateSelectorFieldTv"
+                    style="@style/TitleBlackTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_shape_white_r1"
+                    android:padding="12dp"
+
+                    android:layout_marginEnd="20dp"
+                    android:text="Click to select"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:paddingEnd="14dp"
+                    android:drawableEnd="@drawable/bs_small_calendar_icon"
+
+                    app:layout_constraintEnd_toStartOf="@+id/endDateSelectorFieldTv"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/startAddDateTV" />
+
+                <TextView
+                    android:id="@+id/endAddDateTV"
+                    style="@style/TitleBlackTextView"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@+id/endDateSelectorFieldTv"
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    android:text="End Date" />
+
+                <TextView
+                    android:id="@+id/endDateSelectorFieldTv"
+                    style="@style/TitleBlackTextView"
+                    android:textSize="14sp"
+                    android:layout_width="0dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:background="@drawable/round_shape_white_r1"
+                    android:padding="12dp"
+                    android:paddingEnd="14dp"
+                    android:drawableEnd="@drawable/bs_small_calendar_icon"
+                    app:layout_constraintStart_toEndOf="@+id/startDateSelectorFieldTv"
+                    android:text="Click to select" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/startAddDateTVV"
+                style="@style/TitleBlackTextView"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="Assigned to" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:background="@drawable/round_shape_white_r1"
+                android:orientation="vertical">
+
+                <Spinner
+
+                    android:id="@+id/assignToSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView93"
+                style="@style/TitleBlackTextView"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reward Points" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/addRewardPointsEditText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="4dp"
+                android:paddingStart="20dp"
+
+                android:background="@drawable/round_shape_white_r1"
+                android:backgroundTintMode="add"
+                style="@style/PrimaryInputField"
+
+                android:ems="10"
+                android:backgroundTint="@color/base_light_gray"
+
+                android:inputType="number" />
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
